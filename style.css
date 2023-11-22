@@ -1,3 +1,8 @@
+@font-face{
+    font-family: buttermilk;
+    src: url(Buttermilk.woff);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -22,9 +27,9 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:buttermilk;
     font-weight: 100;
-    font-size: 220px;
+    font-size: 300px;
     color: #b5a3a3;
     mix-blend-mode: difference;
 }
