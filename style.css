@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    background-color: black;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/27/16/38/planet-581239_640.jpg);
+    background-size: cover ;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 220px;
+    color: #b5a3a3;
+    mix-blend-mode: difference;
+}
